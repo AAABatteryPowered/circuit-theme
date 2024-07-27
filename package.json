@@ -1,0 +1,21 @@
+{
+  "name": "circuit-theme",
+  "displayName": "Circuit Theme",
+  "description": "A custom VS Code Colour Theme for optimal productivity",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Circuit",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Circuit-color-theme.json"
+      }
+    ]
+  }
+}
